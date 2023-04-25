@@ -16,7 +16,7 @@ body {
 }
 
 a {
-  color: #2dc997;
+  color: #D0142C;
   text-decoration: none;
 }
 
@@ -45,6 +45,17 @@ h6 {
   padding: 0;
 }
 
+.typeFont{
+  font-family: "Mont-black";
+}
+
+@font-face {
+  font-family: "Mont-black";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./../../assets/fonts/mont/MontBlanc-Trial-BoldItalic.woff2") format("truetype"),
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -55,7 +66,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #2dc997;
+  background: #D0142C;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -69,7 +80,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #49d6a9;
+  background: #013475;
   color: #fff;
 }
 
@@ -115,6 +126,14 @@ h6 {
 #header #logo img {
   padding: 0;
   margin: 0;
+}
+
+@media only screen and (max-width: 599px) {
+
+  #header img {
+    width: 70px;
+    height: 70px;
+  }
 }
 
 #header.header-transparent {
@@ -188,7 +207,7 @@ h6 {
   height: 2px;
   bottom: -6px;
   left: 0;
-  background-color: #2dc997;
+  background-color: #D0142C;
   visibility: hidden;
   transform: scaleX(0);
   transition: all 0.3s ease-in-out 0s;
@@ -241,7 +260,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #2dc997;
+  color: #D0142C;
 }
 
 .navbar .dropdown:hover>ul {
@@ -346,7 +365,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #2dc997;
+  color: #D0142C;
 }
 
 .navbar-mobile .getstarted,
@@ -381,7 +400,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #2dc997;
+  color: #D0142C;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -402,6 +421,13 @@ h6 {
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
+  }
+}
+@media only screen and (max-width: 599px) {
+  #hero { 
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 30vh
   }
 }
 
@@ -474,8 +500,8 @@ h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: #2dc997;
-  border: 2px solid #2dc997;
+  background: #D0142C;
+  border: 2px solid #D0142C;
 }
 
 /*--------------------------------------------------------------
@@ -612,11 +638,11 @@ section {
   flex-direction: column;
   text-align: center;
   border-radius: 50%;
-  border: 2px solid #2dc997;
+  border: 2px solid #D0142C;
 }
 
 #about .about-container .icon-box .icon i {
-  color: #2dc997;
+  color: #D0142C;
   font-size: 24px;
   line-height: 0;
 }
@@ -649,7 +675,7 @@ section {
 #facts .counters span {
   font-size: 48px;
   display: block;
-  color: #2dc997;
+  color: #D0142C;
 }
 
 #facts .counters p {
@@ -691,7 +717,7 @@ section {
   text-align: center;
   width: 72px;
   height: 72px;
-  background: #2dc997;
+  background: #D0142C;
 }
 
 #services .icon a {
@@ -706,15 +732,15 @@ section {
 
 #services .box:hover .icon {
   background: #fff;
-  border: 2px solid #2dc997;
+  border: 2px solid #D0142C;
 }
 
 #services .box:hover .icon i {
-  color: #2dc997;
+  color: #D0142C;
 }
 
 #services .box:hover .icon a {
-  color: #2dc997;
+  color: #D0142C;
 }
 
 #services .title {
@@ -781,8 +807,8 @@ section {
 }
 
 #call-to-action .cta-btn:hover {
-  background: #2dc997;
-  border: 2px solid #2dc997;
+  background: #D0142C;
+  border: 2px solid #D0142C;
 }
 
 /* Portfolio Section
@@ -817,7 +843,7 @@ section {
 #portfolio #portfolio-flters li:hover,
 #portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background: #2dc997;
+  background: #D0142C;
 }
 
 #portfolio #portfolio-flters li:last-child {
@@ -843,7 +869,7 @@ section {
   bottom: -50px;
   z-index: 3;
   transition: all ease-in-out 0.3s;
-  background: #2dc997;
+  background: #D0142C;
   padding: 15px 20px;
 }
 
@@ -908,11 +934,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #2dc997;
+  border: 1px solid #D0142C;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #2dc997;
+  background-color: #D0142C;
 }
 
 .portfolio-details .portfolio-info {
@@ -995,7 +1021,7 @@ section {
 }
 
 #team .member .social a:hover {
-  color: #2dc997;
+  color: #D0142C;
 }
 
 #team .member .social i {
@@ -1021,7 +1047,7 @@ section {
 
 #contact .info i {
   font-size: 32px;
-  color: #2dc997;
+  color: #D0142C;
   float: left;
   line-height: 0;
 }
@@ -1061,7 +1087,7 @@ section {
 }
 
 #contact .social-links a:hover {
-  background: #2dc997;
+  background: #D0142C;
   color: #fff;
 }
 
@@ -1115,11 +1141,11 @@ section {
 
 #contact .php-email-form input::focus,
 #contact .php-email-form textarea::focus {
-  background-color: #2dc997;
+  background-color: #D0142C;
 }
 
 #contact .php-email-form button[type=submit] {
-  background: #2dc997;
+  background: #D0142C;
   border: 0;
   padding: 10px 24px;
   color: #fff;
