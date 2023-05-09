@@ -23,7 +23,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #2dca98;
+  color: #013475;
   outline: none;
   text-decoration: none;
 }
@@ -53,7 +53,7 @@ h6 {
   font-family: "Mont-black";
   font-style: normal;
   font-weight: normal;
-  src: url("./../../assets/fonts/mont/MontBlanc-Trial-BoldItalic.woff2") format("truetype"),
+  src: url("./../../assets/fonts/montBlack/FontsFree-Net-Mont-Blanc-Bold-Italic.ttf") format("truetype"),
 }
 
 /*--------------------------------------------------------------
@@ -82,11 +82,18 @@ h6 {
 .back-to-top:hover {
   background: #013475;
   color: #fff;
+  
 }
 
 .back-to-top.active {
   visibility: visible;
   opacity: 1;
+  background: #D0142C;
+}
+.back-to-top.active:hover {
+  visibility: visible;
+  opacity: 1;
+  background: #013475;
 }
 
 /*--------------------------------------------------------------
@@ -321,7 +328,7 @@ h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(77, 77, 77, 0.9);
+  background: #D0142C;
   transition: 0.3s;
   z-index: 999;
 }
@@ -415,7 +422,7 @@ h6 {
   height: 100vh;
   background: url(../img/hero-bg.jpg) top center;
   background-size: cover;
-  position: relative;
+  position: relative; 
 }
 
 @media (min-width: 1024px) {
@@ -524,7 +531,7 @@ section {
 
 .section-header .section-description {
   text-align: center;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
   color: #999;
 }
 
@@ -542,6 +549,29 @@ section {
   font-size: 24px;
   font-weight: 300;
   margin: 0;
+}
+
+.map-size{
+  /* border: 22px solid green; */
+  margin: 0 0 2em 0;
+  border-radius: 5px;
+  align-items: center;
+  position: relative;
+  /* box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);   */
+  box-shadow: 0px 0px 60px rgba(33, 33, 33, 0.25); 
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transform-origin: center center;
+  filter: brightness(50%);
+}
+.map-size:hover{ 
+  filter: brightness(100%);
+  transform: scale(1.1);
+}
+
+.p-map{
+  padding: 0;
+  margin: 0;
+  line-height: 2em;
 }
 
 @media (max-width: 992px) {
@@ -592,10 +622,27 @@ section {
 }
 
 #about .about-container .background {
-  min-height: 300px;
-  background: url(../img/about-img.jpg) center top no-repeat;
-  margin-bottom: 10px;
-}
+  /* min-height: 300px; */
+  background: url(../img/Logos/section-two.jpg) center top no-repeat;
+  /* margin-bottom: 10px; */ 
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 58vh;
+  margin: 0;
+  border-radius: 1%;
+  }
+  @media only screen and (max-width: 599px) {
+    #about .about-container .background {
+      background-size: 100%;      
+      height: 35vh
+    }
+  }
+  @media only screen and (min-width: 600px) and (max-width: 1400px) {
+    #about .about-container .background {
+      background-size: 100%;      
+      height: 33rem;
+    }
+  }
 
 #about .about-container .content {
   background: #fff;
@@ -664,6 +711,281 @@ section {
   line-height: 24px;
   font-size: 14px;
 }
+.videosize{
+  width: 41em;  
+  padding: 3.8em 2em 0 1em; 
+}
+@media only screen and (max-width: 599px){
+  .videosize{
+    width: 100%;  
+    padding: 0;  
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 1400px){
+  .videosize{
+    width: 100%;  
+    padding: 0 0 2em 0;      
+  }
+}
+
+/* blog Us Section
+--------------------------------*/
+#blog {
+  background: #fff;
+  padding: 80px 0;
+}
+
+#blog .blog-container .background {
+  /* min-height: 300px; */
+  background: url(../img/Logos/section-two.jpg) center top no-repeat;
+  /* margin-bottom: 10px; */ 
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 58vh;
+  margin: 0;
+  border-radius: 1%;
+  }
+  @media only screen and (max-width: 599px) {
+    #blog .blog-container .background {
+      background-size: 100%;      
+      height: 35vh
+    }
+  }
+  @media only screen and (min-width: 600px) and (max-width: 1400px) {
+    #blog .blog-container .background {
+      background-size: 100%;      
+      height: 33rem;
+    }
+  }
+
+#blog .blog-container .content {
+  background: #fff;
+}
+
+#blog .blog-container .title {
+  color: #333;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+@media (max-width: 768px) {
+  #blog .blog-container .title {
+    text-align: center;
+    padding-top: 15px;
+  }
+  #blog .blog-container p {
+    line-height: 20px;
+    text-align: center !important;
+  }
+}
+
+#blog .blog-container p {
+  line-height: 26px;
+  text-align: justify;
+}
+
+#blog .blog-container p:last-child {
+  margin-bottom: 0;
+}
+
+/* blog Us Section
+--------------------------------*/
+
+
+/* feed Section---*/
+
+#feed {
+  background: #343b40;
+  padding: 30px 0;
+}
+
+#feed .feed-container .content {
+  background: #343b40;
+}
+.ctitle{
+  font-family: "PT Serif",serif;
+  font-style: italic;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+}
+#feed .feed-container .title {
+  color: #fff;
+  font-weight: 700;
+  font-size: 32px;
+}
+/* .t-justify{ 
+  text-align: justify;  
+} */
+.d-padding{
+  padding: 0 3em 0 3em !important;
+}
+ /* Slideshow container */
+ .slideshow-container {
+  position: relative;
+  background: #343b40;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;  
+  /* position: relative;  
+  animation-name: next;
+  animation-duration: 4s; */
+  animation: fadeInAnimation ease 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes next {
+  0%   {top:100%; left:0;}
+  25%  {top:0; left:0px;}
+  50%  {top:0; left:0;}
+  75%  {top:0px; left:0;}
+  100% {top:0px; left:0;}
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}
+
+/* The element to apply the animation to */
+
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 30px;
+  border-radius: 4px 0 0 4px;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 0 4px 4px 0;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(156, 155, 155, 0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  background: #343b40;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic; color: #fff; font-size: 18px;}
+
+/* Add a blue color to the author */
+.author {color: rgb(126, 165, 236) !important; font-size: 18px;} 
+
+@media (max-width: 768px) {
+  #feed .feed-container .title {
+    padding-top: 15px;
+  }
+}
+
+#feed .feed-container p {
+  color: #fff;
+  line-height: 26px;
+  font-family: "PT Serif",serif;
+  font-style: italic;
+}
+
+.halfline {
+  color: inherit;
+  padding: 0;
+  background: 0 0;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    background-repeat: repeat;
+    background-image: none;
+    background-size: auto;
+  background-image: linear-gradient(120deg,rgba(var(--bs-warning-rgb),.4) 0,rgba(var(--bs-warning-rgb),.4) 100%);
+  background-repeat: no-repeat;
+  background-size: 15% .4em;
+  background-position: 0 80%;
+  position: relative;
+}
+
+@media screen and (max-width: 399px) {
+  .halfline {
+    background-size: 33% .4em;
+    background-position: 50% 80%;
+  }
+}
+@media screen and (min-width: 400px) and (max-width:599px){
+  .halfline {
+    background-size: 31% .4em;
+    background-position: 50% 80%;
+  }
+}
+@media screen and (min-width: 600px) and (max-width:1099px){
+  .halfline {
+    background-size: 16% .5em;
+    background-position: 0 80%;
+  }
+}
+@media screen and (min-width: 1100px) and (max-width:1400px){
+  .halfline {
+    background-size: 17% .5em;
+    background-position: 0 80%;
+  }
+}
+            
+.line {            
+  background: linear-gradient(to left, #6796d2, #e14559 100%);
+  background-position: 0 100%;
+  background-size: 100% 2px;
+  background-repeat: repeat-x;
+  border-radius: 10%;  
+  color: #fff;
+}
+    
+
+#feed .feed-container p:last-child {
+  margin-bottom: 0;
+}
+/* End feed Section---*/
 
 /* Facts Section
 --------------------------------*/
@@ -793,7 +1115,7 @@ section {
 
 #call-to-action .cta-btn {
   font-family: "Poppins", sans-serif;
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -994,6 +1316,7 @@ section {
   margin-bottom: 15px;
   overflow: hidden;
   height: 260px;
+  border-radius: 1%;
 }
 
 #team .member .pic img {
@@ -1017,11 +1340,11 @@ section {
 }
 
 #team .member .social a {
-  color: #b3b3b3;
+  color: #D0142C;
 }
 
 #team .member .social a:hover {
-  color: #D0142C;
+  color: #013475;
 }
 
 #team .member .social i {
@@ -1033,7 +1356,7 @@ section {
 --------------------------------*/
 #contact {
   background: #f7f7f7;
-  padding: 80px 0 40px 0;
+  padding: 80px 0 0 0;
 }
 
 #contact #google-map {
@@ -1069,7 +1392,7 @@ section {
 
 #contact .social-links a {
   font-size: 18px;
-  background: #333;
+  background: #D0142C;
   color: #fff;
   line-height: 1;
   border-radius: 50%;
@@ -1087,14 +1410,18 @@ section {
 }
 
 #contact .social-links a:hover {
-  background: #D0142C;
+  background: #013475;
   color: #fff;
+}
+
+.button-lg{
+  width: 100%;
 }
 
 #contact .php-email-form .error-message {
   display: none;
   color: #fff;
-  background: #ed3c0d;
+  background: #D0142C;
   text-align: left;
   padding: 15px;
   font-weight: 600;
@@ -1107,17 +1434,20 @@ section {
 #contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #18d26e;
+  background: #2cb135;
   text-align: center;
   padding: 15px;
   font-weight: 600;
+  left: 0;
+  top: 0;
 }
 
 #contact .php-email-form .loading {
   display: none;
   background: #fff;
   text-align: center;
-  padding: 15px;
+  padding: 15px;  
+  position: relative;
 }
 
 #contact .php-email-form .loading:before {
@@ -1127,9 +1457,10 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid #013475;
   border-top-color: #eee;
   animation: animate-loading 1s linear infinite;
+  
 }
 
 #contact .php-email-form input,
@@ -1137,6 +1468,29 @@ section {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
+}
+
+/* #contact .php-email-form textarea,input:required{
+  border-color: #D0142C;
+} */
+
+#contact .php-email-form input:focus:invalid{
+  border-color: #D0142C;  
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+
+#contact .php-email-form textarea:focus:invalid{
+  border-color: #D0142C;
+}
+
+.color-btn{
+  border-color: #D0142C !important;
+  background: #D0142C !important;
+}
+.color-btn:hover{
+  border-color: #013475 !important;
+  background: #013475 !important;
 }
 
 #contact .php-email-form input::focus,
@@ -1153,17 +1507,77 @@ section {
 }
 
 #contact .php-email-form button[type=submit]:hover {
-  background: #51d8ad;
+  background: #013475;
 }
 
 @keyframes animate-loading {
   0% {
     transform: rotate(0deg);
+    
   }
 
   100% {
     transform: rotate(360deg);
+  } 
+
+}
+/******/
+.fontAboutus{ 
+  text-align: start;
+  margin-top: 0.4em;  
+  font-size: 1  50%;
+}
+.fontVision{ 
+  text-align: start;
+  margin-top: 0.4em;  
+  font-size: 1  50%;
+}
+@media only screen and (max-width: 599px) {
+  .fontVision { 
+    text-align: center;
   }
+}
+.highlight{
+  background: linear-gradient(180deg, rgba(255,255,255,0) 55%, #fced96 55%) !important;
+  border-radius: 20px;
+}
+.fontSubText {
+  text-align: start;  
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.3;
+  color: #718096 !important;
+}
+.alignRow{
+  display: flex;
+  align-items: flex-start;
+  }
+  .rounded {
+    border-radius: 5px;
+  }
+  .mb-2 {
+    margin-bottom: .5rem;
+  }
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  .pt-7 {
+      margin: 0 5rem 0 5rem;
+      padding: 3.5rem 0;
+  }
+  .pt-8 {  
+    padding-top: 3.5rem;
+  }
+  .m-center{
+    text-align: center;
+    align-items: center;
+  }
+  @media only screen and (max-width: 1079px) {
+
+    .pt-7{
+      margin: 0
+    } 
 }
 
 /*--------------------------------------------------------------

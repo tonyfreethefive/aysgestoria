@@ -1,0 +1,608 @@
+/*--------------------------------------------------------------formalities
+# services-bg Section
+--------------------------------------------------------------*/
+#services-bg {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/services-bg.jpg) top center;
+    background-size: cover;
+    position: relative; 
+  }
+  
+  @media (min-width: 1024px) {
+    #services-bg {
+      background-attachment: fixed;
+    }
+  }
+  @media only screen and (max-width: 599px) {
+    #services-bg { 
+      background-size: 100%;
+      background-repeat: no-repeat;
+      height: 30vh
+    }
+  }
+  
+  #services-bg:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  #services-bg .services-bg-container {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  #services-bg h1 {
+    margin: 30px 0 10px 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  
+  @media (max-width: 768px) {
+    #services-bg h1 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+  }
+  
+  #services-bg h2 {
+    color: #eee;
+    margin-bottom: 50px;
+    font-size: 24px;
+  }
+
+  .m-bot{
+    margin: 0 0 2em 0;
+  }
+  
+  @media (max-width: 768px) {
+    #services-bg h2 {
+      font-size: 15px;
+      line-height: 24px;
+      margin-bottom: 30px;
+    }
+  }
+  
+  #services-bg .btn-get-started {
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px;
+    border: 2px solid #fff;
+    color: #fff;
+  }
+  
+  #services-bg .btn-get-started:hover {
+    background: #D0142C;
+    border: 2px solid #D0142C;
+  }
+
+  /* formality Us Section
+--------------------------------*/
+#register {
+  background: #fff;
+  padding: 80px 0;
+}
+
+#register .formality-container .background {
+  /* min-height: 300px; */
+  background: url(../img/portfolio/portfolio-1.jpg) center top no-repeat;
+  /* margin-bottom: 10px; */ 
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 58vh;
+  margin: 0;
+   
+  }
+  @media only screen and (max-width: 599px) {
+    #register .formality-container .background {
+      background-size: 100%;      
+      height: 35vh
+    }
+  }
+  @media only screen and (min-width: 600px) and (max-width: 1400px) {
+    #register .formality-container .background {
+      background-size: 100%;      
+      height: 33rem;
+    }
+  }
+
+#register .formality-container .content {
+  background: #fff;
+}
+
+#register .formality-container .title {
+  color: #333;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+@media (max-width: 768px) {
+  #register .formality-container .title {
+    text-align: left;
+    padding-top: 15px;
+  }
+  #register .formality-container p {
+    line-height: 20px;
+    text-align: left !important;
+  }
+}
+
+#register .formality-container p {
+  line-height: 26px;
+  text-align: justify;
+}
+
+#register .formality-container p:last-child {
+  margin-bottom: 0;
+}
+
+#register .info {
+  color: #333333;
+}
+
+#register .info i {
+  font-size: 32px;
+  color: #D0142C;
+  float: left;
+  line-height: 0;
+}
+
+#register .info p {
+  padding: 0 0 10px 50px;
+  margin-bottom: 20px;
+  line-height: 40px;
+  font-size: 14px;
+}
+
+#register .info .email p {
+  padding-top: 5px;
+}
+
+/* register Us Section
+--------------------------------*/
+
+/* civil Us Section
+--------------------------------*/
+#visa {
+  background: #f7f7f7;;
+  padding: 80px 0;
+}
+
+#visa .formality-container .background {
+  /* min-height: 300px; */
+  background: url(../img/portfolio/portfolio-2.jpg) center top no-repeat;
+  /* margin-bottom: 10px; */ 
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 58vh;
+  margin: 0;
+   
+  }
+  @media only screen and (max-width: 599px) {
+    #visa .formality-container .background {
+      background-size: 100%;      
+      height: 35vh
+    }
+  }
+  @media only screen and (min-width: 600px) and (max-width: 1400px) {
+    #visa .formality-container .background {
+      background-size: 100%;      
+      height: 33rem;
+    }
+  }
+
+#visa .formality-container .content {
+  background: #f7f7f7;;
+}
+
+#visa .formality-container .title {
+  color: #333;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+@media (max-width: 768px) {
+  #visa .formality-container .title {
+    text-align: left;
+    padding-top: 15px;
+  }
+  #visa .formality-container p {
+    line-height: 20px;
+    text-align: left !important;
+  }
+}
+
+#visa .formality-container p {
+  line-height: 26px;
+  text-align: justify;
+}
+
+#visa .formality-container p:last-child {
+  margin-bottom: 0;
+}
+
+#visa .info {
+  color: #333333;
+}
+
+#visa .info i {
+  font-size: 32px;
+  color: #D0142C;
+  float: left;
+  line-height: 0;
+}
+
+#visa .info p {
+  padding: 0 0 10px 50px;
+  margin-bottom: 20px;
+  line-height: 40px;
+  font-size: 14px;
+}
+
+#visa .info .email p {
+  padding-top: 5px;
+}
+
+/* civil Us Section
+--------------------------------*/
+
+/* legal Us Section
+--------------------------------*/
+#legal {
+  background: #fff;;
+  padding: 80px 0;
+}
+
+#legal .formality-container .background {
+  /* min-height: 300px; */
+  background: url(../img/portfolio/portfolio-6.jpg) center top no-repeat;
+  /* margin-bottom: 10px; */ 
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 58vh;
+  margin: 0;
+   
+  }
+  @media only screen and (max-width: 599px) {
+    #legal .formality-container .background {
+      background-size: 100%;      
+      height: 35vh
+    }
+  }
+  @media only screen and (min-width: 600px) and (max-width: 1400px) {
+    #legal .formality-container .background {
+      background-size: 100%;      
+      height: 33rem;
+    }
+  }
+
+#legal .formality-container .content {
+  background: #fff;;
+}
+
+#legal .formality-container .title {
+  color: #333;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+@media (max-width: 768px) {
+  #legal .formality-container .title {
+    text-align: center;
+    padding-top: 15px;
+  }
+  #legal .formality-container p {
+    line-height: 20px;
+    text-align: left !important;
+  }
+}
+
+#legal .formality-container p {
+  line-height: 26px;
+  text-align: justify;
+}
+
+#legal .formality-container p:last-child {
+  margin-bottom: 0;
+}
+
+#legal .info {
+  color: #333333;
+}
+
+#legal .info i {
+  font-size: 32px;
+  color: #D0142C;
+  float: left;
+  line-height: 0;
+}
+
+#legal .info p {
+  padding: 0 0 10px 50px;
+  margin-bottom: 20px;
+  line-height: 40px;
+  font-size: 14px;
+}
+
+#legal .info .email p {
+  padding-top: 5px;
+}
+
+/* legal Us Section
+--------------------------------*/
+
+
+/* minrex Us Section
+--------------------------------*/
+#minrex {
+    background: #f7f7f7;;
+    padding: 80px 0 0 0;    
+  }
+  
+  #minrex .formality-container .background {
+    /* min-height: 300px; */
+    background: url(../img/portfolio/portfolio-4.jpg) center top no-repeat;
+    /* margin-bottom: 10px; */ 
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 90vh;
+    margin: 0;
+     
+    }
+    @media only screen and (max-width: 599px) {
+      #minrex .formality-container .background {
+        background-size: 100%;      
+        height: 35vh
+      }
+    }
+    @media only screen and (min-width: 600px) and (max-width: 1400px) {
+      #minrex .formality-container .background {
+        background-size: 100%;      
+        height: 33rem;
+      }
+    }
+  
+  #minrex .formality-container .content {
+    background: #f7f7f7;;
+  }
+  
+  #minrex .formality-container .title {
+    color: #333;
+    font-weight: 700;
+    font-size: 32px;
+  }
+  
+  @media (max-width: 768px) {
+    #minrex .formality-container .title {
+      text-align: center;
+      padding-top: 15px;
+    }
+    #minrex .formality-container p {
+      line-height: 20px;
+      text-align: left !important;
+    }
+  }
+  
+  #minrex .formality-container p {
+    line-height: 26px;
+    text-align: justify;
+  }
+  
+  #minrex .formality-container p:last-child {
+    margin-bottom: 0;
+  }
+  
+  #minrex .info {
+    color: #333333;
+  }
+  
+  #minrex .info i {
+    font-size: 32px;
+    color: #D0142C;
+    float: left;
+    line-height: 0;
+  }
+  
+  #minrex .info p {
+    padding: 0 0 10px 50px;
+    margin-bottom: 20px;
+    line-height: 40px;
+    font-size: 14px;
+  }
+  
+  #minrex .info .email p {
+    padding-top: 5px;
+  }
+  
+  /* minrex Us Section
+  --------------------------------*/
+
+  /* embassy-1 Us Section
+--------------------------------*/
+#embassy1 {
+    background: #fff;;
+    padding: 80px 0;
+  }
+  
+  #embassy1 .formality-container .background {
+    /* min-height: 300px; */
+    background: url(../img/portfolio/portfolio-5.jpg) center top no-repeat;
+    /* margin-bottom: 10px; */ 
+    background-size: 100%;
+    background-repeat: no-repeat;    
+    margin: 0;    
+    }
+    @media only screen and (max-width: 599px) {
+      #embassy1 .formality-container .background {
+        background-size: 100%;      
+        height: 35vh
+      }
+    }
+    @media only screen and (min-width: 600px) and (max-width: 1400px) {
+      #embassy1 .formality-container .background {
+        background-size: 100%;      
+        height: 33rem;
+      }
+    }
+  
+  #embassy1 .formality-container .content {
+    background: #fff;;
+  }
+  
+  #embassy1 .formality-container .title {
+    color: #333;
+    font-weight: 700;
+    font-size: 32px;
+  }
+  
+  @media (max-width: 768px) {
+    #embassy1 .formality-container .title {
+      text-align: center;
+      padding-top: 15px;
+    }
+    #embassy1 .formality-container p {
+      line-height: 20px;
+      text-align: left !important;
+    }
+  }
+  
+  #embassy1 .formality-container p {
+    line-height: 26px;
+    text-align: justify;
+  }
+  
+  #embassy1 .formality-container p:last-child {
+    margin-bottom: 0;
+  }
+  
+  #embassy1 .info {
+    color: #333333;
+  }
+  
+  #embassy1 .info i {
+    font-size: 32px;
+    color: #D0142C;
+    float: left;
+    line-height: 0;
+  }
+  
+  #embassy1 .info p {
+    padding: 0 0 10px 50px;
+    margin-bottom: 20px;
+    line-height: 40px;
+    font-size: 14px;
+  }
+  
+  #embassy1 .info .email p {
+    padding-top: 5px;
+  }
+  
+  /* embassy-1 Us Section
+  --------------------------------*/
+
+  /* embassy-2 Us Section
+--------------------------------*/
+#embassy2 {
+    background: #f7f7f7;;
+    padding: 80px 0;
+  }
+  
+  #embassy2 .formality-container .background {
+    /* min-height: 300px; */
+    background: url(../img/portfolio/portfolio-3.jpg) center top no-repeat;
+    /* margin-bottom: 10px; */ 
+    background-size: 100%;
+    background-repeat: no-repeat;    
+    margin: 0;
+     
+    }
+    @media only screen and (max-width: 599px) {
+      #embassy2 .formality-container .background {
+        background-size: 100%;      
+        height: 35vh
+      }
+    }
+    @media only screen and (min-width: 600px) and (max-width: 1400px) {
+      #embassy2 .formality-container .background {
+        background-size: 100%;      
+        height: 33rem;
+      }
+    }
+  
+  #embassy2 .formality-container .content {
+    background: #f7f7f7;;
+  }
+  
+  #embassy2 .formality-container .title {
+    color: #333;
+    font-weight: 700;
+    font-size: 32px;
+  }
+  
+  @media (max-width: 768px) {
+    #embassy2 .formality-container .title {
+      text-align: center;
+      padding-top: 15px;
+    }
+    #embassy2 .formality-container p {
+      line-height: 20px;
+      text-align: left !important;
+    }
+  }
+  
+  #embassy2 .formality-container p {
+    line-height: 26px;
+    text-align: justify;
+  }
+  
+  #embassy2 .formality-container p:last-child {
+    margin-bottom: 0;
+  }
+  
+  #embassy2 .info {
+    color: #333333;
+  }
+  
+  #embassy2 .info i {
+    font-size: 32px;
+    color: #D0142C;
+    float: left;
+    line-height: 0;
+  }
+  
+  #embassy2 .info p {
+    padding: 0 0 10px 50px;
+    margin-bottom: 20px;
+    line-height: 40px;
+    font-size: 14px;
+  }
+  
+  #embassy2 .info .email p {
+    padding-top: 5px;
+  }
+  
+  /* embassy-2 Us Section
+  --------------------------------*/

@@ -1,0 +1,109 @@
+
+/*--------------------------------------------------------------
+# contact-bg Section
+--------------------------------------------------------------*/
+#contact-bg {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/contact-bg.jpg) top center;
+    background-size: cover;
+    position: relative; 
+  }
+  
+  @media (min-width: 1024px) {
+    #contact-bg {
+      background-attachment: fixed;
+    }
+  }
+  @media only screen and (max-width: 599px) {
+    #contact-bg { 
+      background-size: 100%;
+      background-repeat: no-repeat;
+      height: 30vh
+    }
+  }
+  
+  #contact-bg:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  #contact-bg .contact-bg-container {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  #contact-bg h1 {
+    margin: 30px 0 10px 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  
+  @media (max-width: 768px) {
+    #contact-bg h1 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+  }
+  
+  #contact-bg h2 {
+    color: #eee;
+    margin-bottom: 50px;
+    font-size: 24px;
+  }
+
+  .m-bot{
+    margin: 0 0 2em 0;
+  }
+  
+  @media (max-width: 768px) {
+    #contact-bg h2 {
+      font-size: 15px;
+      line-height: 24px;
+      margin-bottom: 30px;
+    }
+  }
+  
+  #contact-bg .btn-get-started {
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px;
+    border: 2px solid #fff;
+    color: #fff;
+  }
+  
+  #contact-bg .btn-get-started:hover {
+    background: #D0142C;
+    border: 2px solid #D0142C;   
+  }  
+  
+  #sentDiv {
+    display: none;
+    text-align: center;
+  }
+  
+  
+  
