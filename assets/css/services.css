@@ -70,6 +70,14 @@
   .m-bot{
     margin: 0 0 2em 0;
   }
+  .line-top{
+    margin: 2em 0 0 0 !important;
+  }
+  .h-center{
+    margin: 1em 0 1em 0;
+    align-items: center;
+    text-align: center;
+  }
   
   @media (max-width: 768px) {
     #services-bg h2 {
@@ -99,16 +107,17 @@
     border: 2px solid #D0142C;
   }
 
-  /* formality Us Section
---------------------------------*/
-#register {
+  /* formality -----
+
+  -----------Legality Section---------------------*/
+#legality {
   background: #fff;
   padding: 80px 0;
 }
 
-#register .formality-container .background {
+#legality .formality-container .background {
   /* min-height: 300px; */
-  background: url(../img/portfolio/portfolio-1.jpg) center top no-repeat;
+  background: url(../img/portfolio/portfolio-8.jpg) center top no-repeat;
   /* margin-bottom: 10px; */ 
   background-size: cover;
   background-repeat: no-repeat;
@@ -117,74 +126,158 @@
    
   }
   @media only screen and (max-width: 599px) {
-    #register .formality-container .background {
+    #legality .formality-container .background {
       background-size: 100%;      
       height: 35vh
     }
   }
   @media only screen and (min-width: 600px) and (max-width: 1400px) {
-    #register .formality-container .background {
+    #legality .formality-container .background {
       background-size: 100%;      
       height: 33rem;
     }
   }
 
-#register .formality-container .content {
+#legality .formality-container .content {
   background: #fff;
 }
 
-#register .formality-container .title {
+#legality .formality-container .title {
   color: #333;
   font-weight: 700;
   font-size: 32px;
 }
 
 @media (max-width: 768px) {
-  #register .formality-container .title {
+  #legality .formality-container .title {
     text-align: left;
     padding-top: 15px;
   }
-  #register .formality-container p {
+  #legality .formality-container p {
     line-height: 20px;
     text-align: left !important;
   }
 }
 
-#register .formality-container p {
+#legality .formality-container p {
   line-height: 26px;
   text-align: justify;
 }
 
-#register .formality-container p:last-child {
+#legality .formality-container p:last-child {
   margin-bottom: 0;
 }
 
-#register .info {
+#legality .info {
   color: #333333;
 }
 
-#register .info i {
+#legality .info i {
   font-size: 32px;
   color: #D0142C;
   float: left;
   line-height: 0;
 }
 
-#register .info p {
+#legality .info p {
   padding: 0 0 10px 50px;
   margin-bottom: 20px;
   line-height: 40px;
   font-size: 14px;
 }
 
-#register .info .email p {
+#legality .info .email p {
   padding-top: 5px;
 }
 
-/* register Us Section
+/* Legality Section
 --------------------------------*/
 
-/* civil Us Section
+/*-----------MINREX Section---------------------*/
+#minrex {
+  background: #fff;
+  padding: 80px 0;
+}
+
+#minrex .formality-container .background {
+  /* min-height: 300px; */
+  background: url(../img/portfolio/portfolio-4.jpg) center top no-repeat;
+  /* margin-bottom: 10px; */ 
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 75vh;
+  margin: 0;
+   
+  }
+  @media only screen and (max-width: 599px) {
+    #minrex .formality-container .background {
+      background-size: 100%;      
+      height: 35vh
+    }
+  }
+  @media only screen and (min-width: 600px) and (max-width: 1400px) {
+    #minrex .formality-container .background {
+      background-size: 100%;      
+      height: 33rem;
+    }
+  }
+
+#minrex .formality-container .content {
+  background: #fff;
+}
+
+#minrex .formality-container .title {
+  color: #333;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+@media (max-width: 768px) {
+  #minrex .formality-container .title {
+    text-align: left;
+    padding-top: 15px;
+  }
+  #minrex .formality-container p {
+    line-height: 20px;
+    text-align: left !important;
+  }
+}
+
+#minrex .formality-container p {
+  line-height: 26px;
+  text-align: justify;
+}
+
+#minrex .formality-container p:last-child {
+  margin-bottom: 0;
+}
+
+#minrex .info {
+  color: #333333;
+}
+
+#minrex .info i {
+  font-size: 32px;
+  color: #D0142C;
+  float: left;
+  line-height: 0;
+}
+
+#minrex .info p {
+  padding: 0 0 10px 50px;
+  margin-bottom: 20px;
+  line-height: 40px;
+  font-size: 14px;
+}
+
+#minrex .info .email p {
+  padding-top: 5px;
+}
+
+/* MINREX Section
+--------------------------------*/
+
+/* Visa Section
 --------------------------------*/
 #visa {
   background: #f7f7f7;;
@@ -266,17 +359,17 @@
   padding-top: 5px;
 }
 
-/* civil Us Section
+/* Visa Section
 --------------------------------*/
 
-/* legal Us Section
+/* Notary Section
 --------------------------------*/
-#legal {
+#notary {
   background: #fff;;
   padding: 80px 0;
 }
 
-#legal .formality-container .background {
+#notary .formality-container .background {
   /* min-height: 300px; */
   background: url(../img/portfolio/portfolio-6.jpg) center top no-repeat;
   /* margin-bottom: 10px; */ 
@@ -287,84 +380,84 @@
    
   }
   @media only screen and (max-width: 599px) {
-    #legal .formality-container .background {
+    #notary .formality-container .background {
       background-size: 100%;      
       height: 35vh
     }
   }
   @media only screen and (min-width: 600px) and (max-width: 1400px) {
-    #legal .formality-container .background {
+    #notary .formality-container .background {
       background-size: 100%;      
       height: 33rem;
     }
   }
 
-#legal .formality-container .content {
+#notary .formality-container .content {
   background: #fff;;
 }
 
-#legal .formality-container .title {
+#notary .formality-container .title {
   color: #333;
   font-weight: 700;
   font-size: 32px;
 }
 
 @media (max-width: 768px) {
-  #legal .formality-container .title {
+  #notary .formality-container .title {
     text-align: center;
     padding-top: 15px;
   }
-  #legal .formality-container p {
+  #notary .formality-container p {
     line-height: 20px;
     text-align: left !important;
   }
 }
 
-#legal .formality-container p {
+#notary .formality-container p {
   line-height: 26px;
   text-align: justify;
 }
 
-#legal .formality-container p:last-child {
+#notary .formality-container p:last-child {
   margin-bottom: 0;
 }
 
-#legal .info {
+#notary .info {
   color: #333333;
 }
 
-#legal .info i {
+#notary .info i {
   font-size: 32px;
   color: #D0142C;
   float: left;
   line-height: 0;
 }
 
-#legal .info p {
+#notary .info p {
   padding: 0 0 10px 50px;
   margin-bottom: 20px;
   line-height: 40px;
   font-size: 14px;
 }
 
-#legal .info .email p {
+#notary .info .email p {
   padding-top: 5px;
 }
 
-/* legal Us Section
+/* Notary Section
 --------------------------------*/
 
 
-/* minrex Us Section
+/* Civil Register Section
 --------------------------------*/
-#minrex {
+#civilregister {
     background: #f7f7f7;;
     padding: 80px 0 0 0;    
   }
   
-  #minrex .formality-container .background {
+  #civilregister .formality-container .background {
     /* min-height: 300px; */
-    background: url(../img/portfolio/portfolio-4.jpg) center top no-repeat;
+    background: url(../img/portfolio/portfolio-1.jpg) center top no-repeat;
     /* margin-bottom: 10px; */ 
     background-size: 100%;
     background-repeat: no-repeat;
@@ -373,71 +466,71 @@
      
     }
     @media only screen and (max-width: 599px) {
-      #minrex .formality-container .background {
+      #civilregister .formality-container .background {
         background-size: 100%;      
         height: 35vh
       }
     }
     @media only screen and (min-width: 600px) and (max-width: 1400px) {
-      #minrex .formality-container .background {
+      #civilregister .formality-container .background {
         background-size: 100%;      
         height: 33rem;
       }
     }
   
-  #minrex .formality-container .content {
+  #civilregister .formality-container .content {
     background: #f7f7f7;;
   }
   
-  #minrex .formality-container .title {
+  #civilregister .formality-container .title {
     color: #333;
     font-weight: 700;
     font-size: 32px;
   }
   
   @media (max-width: 768px) {
-    #minrex .formality-container .title {
+    #civilregister .formality-container .title {
       text-align: center;
       padding-top: 15px;
     }
-    #minrex .formality-container p {
+    #civilregister .formality-container p {
       line-height: 20px;
       text-align: left !important;
     }
   }
   
-  #minrex .formality-container p {
+  #civilregister .formality-container p {
     line-height: 26px;
     text-align: justify;
   }
   
-  #minrex .formality-container p:last-child {
+  #civilregister .formality-container p:last-child {
     margin-bottom: 0;
   }
   
-  #minrex .info {
+  #civilregister .info {
     color: #333333;
   }
   
-  #minrex .info i {
+  #civilregister .info i {
     font-size: 32px;
     color: #D0142C;
     float: left;
     line-height: 0;
   }
   
-  #minrex .info p {
+  #civilregister .info p {
     padding: 0 0 10px 50px;
     margin-bottom: 20px;
     line-height: 40px;
     font-size: 14px;
   }
   
-  #minrex .info .email p {
+  #civilregister .info .email p {
     padding-top: 5px;
   }
   
-  /* minrex Us Section
+  /* Civil Register Section
   --------------------------------*/
 
   /* embassy-1 Us Section
@@ -525,12 +618,12 @@
 
   /* embassy-2 Us Section
 --------------------------------*/
-#embassy2 {
+#embassy {
     background: #f7f7f7;;
     padding: 80px 0;
   }
   
-  #embassy2 .formality-container .background {
+  #embassy .formality-container .background {
     /* min-height: 300px; */
     background: url(../img/portfolio/portfolio-3.jpg) center top no-repeat;
     /* margin-bottom: 10px; */ 
@@ -540,67 +633,67 @@
      
     }
     @media only screen and (max-width: 599px) {
-      #embassy2 .formality-container .background {
+      #embassy .formality-container .background {
         background-size: 100%;      
         height: 35vh
       }
     }
     @media only screen and (min-width: 600px) and (max-width: 1400px) {
-      #embassy2 .formality-container .background {
+      #embassy .formality-container .background {
         background-size: 100%;      
         height: 33rem;
       }
     }
   
-  #embassy2 .formality-container .content {
+  #embassy .formality-container .content {
     background: #f7f7f7;;
   }
   
-  #embassy2 .formality-container .title {
+  #embassy .formality-container .title {
     color: #333;
     font-weight: 700;
     font-size: 32px;
   }
   
   @media (max-width: 768px) {
-    #embassy2 .formality-container .title {
+    #embassy .formality-container .title {
       text-align: center;
       padding-top: 15px;
     }
-    #embassy2 .formality-container p {
+    #embassy .formality-container p {
       line-height: 20px;
       text-align: left !important;
     }
   }
   
-  #embassy2 .formality-container p {
+  #embassy .formality-container p {
     line-height: 26px;
     text-align: justify;
   }
   
-  #embassy2 .formality-container p:last-child {
+  #embassy .formality-container p:last-child {
     margin-bottom: 0;
   }
   
-  #embassy2 .info {
+  #embassy .info {
     color: #333333;
   }
   
-  #embassy2 .info i {
+  #embassy .info i {
     font-size: 32px;
     color: #D0142C;
     float: left;
     line-height: 0;
   }
   
-  #embassy2 .info p {
+  #embassy .info p {
     padding: 0 0 10px 50px;
     margin-bottom: 20px;
     line-height: 40px;
     font-size: 14px;
   }
   
-  #embassy2 .info .email p {
+  #embassy .info .email p {
     padding-top: 5px;
   }
   

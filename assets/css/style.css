@@ -623,7 +623,7 @@ section {
 
 #about .about-container .background {
   /* min-height: 300px; */
-  background: url(../img/Logos/section-two.jpg) center top no-repeat;
+  background: url(../img/Logos/section-vision.jpg) center top no-repeat;
   /* margin-bottom: 10px; */ 
   background-size: cover;
   background-repeat: no-repeat;
@@ -732,12 +732,12 @@ section {
 --------------------------------*/
 #blog {
   background: #fff;
-  padding: 80px 0;
+  padding: 70px 0;
 }
 
 #blog .blog-container .background {
   /* min-height: 300px; */
-  background: url(../img/Logos/section-two.jpg) center top no-repeat;
+  background: url(../img/Logos/section-vision.jpg) center top no-repeat;
   /* margin-bottom: 10px; */ 
   background-size: cover;
   background-repeat: no-repeat;
@@ -802,6 +802,10 @@ section {
 #feed .feed-container .content {
   background: #343b40;
 }
+.boxteam{
+  align-items: center !important;
+  text-align: center !important;
+}
 .ctitle{
   font-family: "PT Serif",serif;
   font-style: italic;
@@ -814,9 +818,11 @@ section {
   font-weight: 700;
   font-size: 32px;
 }
-/* .t-justify{ 
-  text-align: justify;  
-} */
+.t-center{ 
+  color: black;  
+  text-align: center;
+  align-items: center;  
+}
 .d-padding{
   padding: 0 3em 0 3em !important;
 }
@@ -1012,7 +1018,7 @@ q {font-style: italic; color: #fff; font-size: 18px;}
 #services {
   background: #fff;
   background-size: cover;
-  padding: 80px 0 60px 0;
+  /* padding: 80px 0 60px 0; */
 }
 
 #services .box {
@@ -1523,7 +1529,7 @@ q {font-style: italic; color: #fff; font-size: 18px;}
 }
 /******/
 .fontAboutus{ 
-  text-align: start;
+  text-align: center !important;
   margin-top: 0.4em;  
   font-size: 1  50%;
 }
