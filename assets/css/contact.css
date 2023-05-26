@@ -104,20 +104,7 @@
     display: none;
     text-align: center;
   }
-  .h-findus{
-    margin: 0 0 1.8em 0 !important;
-  }
-  .m-findus{
-    margin: 0 8em 0 8em;
-  }
-  @media only screen and (max-width: 1299px) {
-    .m-findus{
-      margin: 0 4em 0 4em;      
-    }
-    p{
-      font-size: smaller !important;
-    }
-  }
+
   
   
   

@@ -102,12 +102,12 @@
 
   /* formality Us Section
 --------------------------------*/
-#authority {
+#notary {
   background: #fff;
   padding: 80px 0;
 }
 
-#authority .formality-container .background {
+#notary .formality-container .background {
   /* min-height: 300px; */
   background: url(../img/Logos/notary.jpg) center top no-repeat;
   /* margin-bottom: 10px; */ 
@@ -118,71 +118,71 @@
   border-radius: 1%;
   }
   @media only screen and (max-width: 599px) {
-    #authority .formality-container .background {
+    #notary .formality-container .background {
       background-size: 100%;      
       height: 35vh
     }
   }
   @media only screen and (min-width: 600px) and (max-width: 1400px) {
-    #authority .formality-container .background {
+    #notary .formality-container .background {
       background-size: 100%;      
       height: 33rem;
     }
   }
 
-#authority .formality-container .content {
+#notary .formality-container .content {
   background: #fff;
 }
 
-#authority .formality-container .title {
+#notary .formality-container .title {
   color: #333;
   font-weight: 700;
   font-size: 32px;
 }
 
 @media (max-width: 768px) {
-  #authority .formality-container .title {
+  #notary .formality-container .title {
     text-align: center;
     padding-top: 15px;
   }
-  #authority .formality-container p {
+  #notary .formality-container p {
     line-height: 20px;
     text-align: left !important;
   }
 }
 
-#authority .formality-container p {
+#notary .formality-container p {
   line-height: 26px;
   text-align: justify;
 }
 
-#authority .formality-container p:last-child {
+#notary .formality-container p:last-child {
   margin-bottom: 0;
 }
 
-#authority .info {
+#notary .info {
   color: #333333;
 }
 
-#authority .info i {
+#notary .info i {
   font-size: 32px;
   color: #D0142C;
   float: left;
   line-height: 0;
 }
 
-#authority .info p {
+#notary .info p {
   padding: 0 0 10px 50px;
   margin-bottom: 20px;
   line-height: 40px;
   font-size: 14px;
 }
 
-#authority .info .email p {
+#notary .info .email p {
   padding-top: 5px;
 }
 
-/* authority Us Section
+/* notary Us Section
 --------------------------------*/
 
 /* Lawyer Section

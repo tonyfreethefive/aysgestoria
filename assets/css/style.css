@@ -472,8 +472,8 @@ h6 {
 
 @media (max-width: 768px) {
   #hero h1 {
-    font-size: 28px;
-    line-height: 36px;
+    font-size: 22px;
+    line-height: 28px;
   }
 }
 
@@ -485,9 +485,9 @@ h6 {
 
 @media (max-width: 768px) {
   #hero h2 {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 30px;
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 20px;
   }
 }
 
@@ -504,6 +504,13 @@ h6 {
   margin: 10px;
   border: 2px solid #fff;
   color: #fff;
+}
+
+@media (max-width: 768px) {
+  #hero .btn-get-started { 
+    padding: 4px 16px;
+    margin: 2px;
+  }
 }
 
 #hero .btn-get-started:hover {
@@ -1210,7 +1217,7 @@ q {font-style: italic; color: #fff; font-size: 18px;}
 #portfolio .portfolio-item .portfolio-info p {
   color: #fff;
   font-size: 14px;
-  margin-bottom: 0;
+  margin-bottom: 1em;
 }
 
 #portfolio .portfolio-item .portfolio-info .preview-link,
@@ -1576,14 +1583,36 @@ q {font-style: italic; color: #fff; font-size: 18px;}
     padding-top: 3.5rem;
   }
   .m-center{
-    text-align: center;
-    align-items: center;
+    position: relative;
+    text-align: center !important;
+    align-items: center !important;
+  }
+  .m-geo{
+    margin: 0 0 3em 0 !important;
   }
   @media only screen and (max-width: 1079px) {
 
     .pt-7{
       margin: 0
     } 
+}
+.h-writeus{
+  margin: 2em 0 0 0 !important;
+}
+
+.h-findus{
+  margin: 0 0 1.8em 0 !important;
+}
+.m-findus{
+  margin: 0 8em 0 8em;
+}
+@media only screen and (max-width: 1299px) {
+  .m-findus{
+    margin: 0 4em 0 4em;      
+  }
+  p{
+    font-size: smaller;
+  }
 }
 
 /*--------------------------------------------------------------
