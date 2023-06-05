@@ -46,14 +46,26 @@ h6 {
 }
 
 .typeFont{
-  font-family: "Mont-black";
+  font-family: "Nunito-Bold";
+}
+.m-btn{
+  margin: 1em !important;
 }
 
 @font-face {
   font-family: "Mont-black";
   font-style: normal;
   font-weight: normal;
-  src: url("./../../assets/fonts/montBlack/FontsFree-Net-Mont-Blanc-Bold-Italic.ttf") format("truetype"),
+  src: url("~/../../fonts/montBlack/FontsFree-Net-Mont-Blanc-Bold-Italic.ttf") format("truetype"),
+}
+
+@font-face {font-family: "Nunito-Bold";
+  src: url("./../../assets/fonts/Nunito-Bold/font-face/3b645163096951379a333c390a3d3756.eot"); /* IE9*/
+  src: url("./../../assets/fonts/Nunito-Bold/font-face/3b645163096951379a333c390a3d3756.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("./../../assets/fonts/Nunito-Bold/font-face/3b645163096951379a333c390a3d3756.woff2") format("woff2"), /* chrome、firefox */
+  url("./../../assets/fonts/Nunito-Bold/font-face/3b645163096951379a333c390a3d3756.woff") format("woff"), /* chrome、firefox */
+  url("./../../assets/fonts/Nunito-Bold/font-face/3b645163096951379a333c390a3d3756.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("./../../assets/fonts/Nunito-Bold/font-face/3b645163096951379a333c390a3d3756.svg#Nunito-Bold") format("svg"); /* iOS 4.1- */
 }
 
 /*--------------------------------------------------------------
@@ -189,7 +201,7 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-family: "Poppins", sans-serif;
+  font-family: "Nunito-Bold";
   color: #fff;
   font-size: 14px;
   padding: 0 4px;
@@ -492,7 +504,7 @@ h6 {
 }
 
 #hero .btn-get-started {
-  font-family: "Poppins", sans-serif;
+  font-family: "Nunito-Bold";
   text-transform: uppercase;
   font-weight: 500;
   font-size: 16px;
@@ -814,7 +826,7 @@ section {
   text-align: center !important;
 }
 .ctitle{
-  font-family: "PT Serif",serif;
+  font-family: "Poppins", sans-serif;
   font-style: italic;
   font-weight: 600;
   color: #fff;

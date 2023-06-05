@@ -14,13 +14,13 @@
 
                             
   $to = "web-soporte@aysgestoria.com";
-  $forward = "tonyfreethefive@gmail.com";
+  //$forward = "tonyfreethefive@gmail.com";
 
   $headers = "From: $email_from \r\n";
 
   $headers .= "Reply-To: $visitor_email \r\n";
 
   mail($to, $visitor_email, $email_body);
-  mail($forward, $visitor_email, $email_body);
+  //mail($forward, $visitor_email, $email_body);
   // mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
 ?>
